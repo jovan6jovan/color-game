@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Guessing Color Game</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="header">
+        <h1>Color Guessing Game</h1>
+        <p id="picked-color">RGB(175, 203, 2)</p>
+    </header>
+    <nav>
+        <ul class="container">
+            <li class="new-colors">New Colors</li>
+            <div class="levels">
+                <li class="level easy">Easy</li>
+                <li class="level hard active-level">Hard</li>
+            </div>
+        </ul>
+    </nav>
+    <div class="colors-container">
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+    </div>
+    
+    <div class="modal">
+        <h2 class="correct">Correct!</h2>
+        <h2 class="try-again">Try Again!</h2>
+    </div>
+<script src="main.js"></script>
+</body>
+</html>
